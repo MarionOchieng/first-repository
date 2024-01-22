@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+            overflow: hidden;
+            background-color: cornflowerblue;
+
+        }
+        li{
+            float: left;
+            padding: 20px;
+            display: block;
+        }
+        li a{
+            color: wheat;
+            text-decoration: none;
+        }
+        div.container{
+            width: 100%;
+            padding: 20px;
+            margin-bottom: 20px;
+
+        }
+        div.repeat{
+            width: 100%;
+            padding: 20px;
+
+        }
+        div#image{
+            overflow: auto;
+            display: inline;
+            width:30%;
+            float: left;
+        }
+        div#paragragh{
+            width: 60%;
+            float: right;
+
+        }
+        div#2{
+            float: right;
+            width: 30%;
+            display: inline;
+            overflow: auto;
+        }
+        div#1{
+            float: right;
+            width: 60%;
+
+
+        }
+        table{
+           width: 50%;
+        }
+        tr{
+            border-radius: 100px;
+        }
+        td{
+            border-style: hidden;
+        }
+        input[type=text], select{
+            width: 50%;
+            border-radius: 5px;
+            padding: 12px 20px;
+        }
+        input[type=submit]{
+            width: 20%;
+            background-color: darkcyan;
+        }
+        input[type=submit]:hover{
+            background-color: cornflowerblue;
+        }
+        input[type=reset]{
+            background-color: blue;
+        }
+        input[type=reset]:hover{
+            background-color: gold;
+        }
+div.form{
+    background-color: hotpink;
+width: 40%;
+    float: left;
+}
+div#map{
+    float: right;
+}
+.im{
+    border-radius: 50%;
+}
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About Us</a></li>
+    <li><a href="">Contact</a></li>
+</ul>
+<br>
+<div class="container">
+    <div id="paragragh">
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur, officia! Ab accusantium at dolor earum eveniet ex facere laboriosam minus neque, nobis omnis sapiente sunt. Atque numquam rerum suscipit.</span><span>Aut, doloribus ea harum magnam mollitia qui rerum saepe? Amet atque deserunt fugiat laudantium, neque quas quis sed. Ab asperiores commodi consequuntur earum fugiat necessitatibus obcaecati quod voluptatum. Dolores, ex.</span><span>Aspernatur at commodi deleniti dicta earum fuga, maiores, molestias nam neque perferendis quam, quas quisquam sed sequi vel vitae voluptas? Ab atque fuga magnam minus perspiciatis quaerat quam ut! Dolor.</span><span>Adipisci at atque cum cupiditate, ducimus fugit illum iste magnam non numquam, obcaecati, pariatur quam reprehenderit sint voluptas? Accusantium autem culpa eum minus nemo nobis officiis perferendis quos suscipit ut!</span></p>
+    </div>
+    <div id="image">
+        <img src="assets/images/more.jpeg" alt="">
+    </div>
+    </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="repeat">
+    <div id="1">
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur, officia! Ab accusantium at dolor earum eveniet ex facere laboriosam minus neque, nobis omnis sapiente sunt. Atque numquam rerum suscipit.</span><span>Aut, doloribus ea harum magnam mollitia qui rerum saepe? Amet atque deserunt fugiat laudantium, neque quas quis sed. Ab asperiores commodi consequuntur earum fugiat necessitatibus obcaecati quod voluptatum. Dolores, ex.</span><span>Aspernatur at commodi deleniti dicta earum fuga, maiores, molestias nam neque perferendis quam, quas quisquam sed sequi vel vitae voluptas? Ab atque fuga magnam minus perspiciatis quaerat quam ut! Dolor.</span><span>Adipisci at atque cum cupiditate, ducimus fugit illum iste magnam non numquam, obcaecati, pariatur quam reprehenderit sint voluptas? Accusantium autem culpa eum minus nemo nobis officiis perferendis quos suscipit ut!</span></p>
+    </div>
+    <div id="2">
+        <img src="assets/images/more.jpeg" alt="">
+    </div>
+</div>
+<table>
+    <tr>
+        <td><img src="assets/images/more.jpeg" width="100px" alt="" class="im" ></td>
+        <td><img src="assets/images/more.jpeg" width="100px" alt="" class="im"></td>
+    </tr>
+</table>
+<div>
+<div class="form">
+<form>
+    <label>First Name</label><br>
+    <input type="text"><br>c
+    <label>Surname</label><br>
+    <input type="text"><br>
+    <label>Gender</label><br>
+    <input type="radio" value="male" id="male" name="Gender">
+    <label for="male">male</label><br>
+    <input type="radio" value="female" id="female" name="Gender">
+    <label for="female">female</label><br>
+    <input type="radio" value="prefer not to" id="pnts" name="Gender">
+    <label for="pnts">pnts</label><br>
+    <label for="country">Country</label>
+    <select id="country">
+        <option>Kenya</option>
+        <option>Tanzania</option>
+    </select><br>
+       <label>Birth date</label><br>
+    <input type="date"><br>
+    <label>Password</label><br>
+    <input type="password" minlength="6" maxlength="10" required placeholder="abc123"><br>
+    <label>subscribe</label>
+    <input type="checkbox"><br>
+    <label>comment</label>
+    <textarea id="comment" rows="3" cols="39"></textarea><br>
+    <input type="submit"<br>
+    <input type="reset"<br>
+</form>
+    </div>
+    <div id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4889255250096!2d36.95581647482942!3d-1.479108798506996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f9fba4bd39055%3A0x4ea6ab0f72b61069!2sKitengela%20Mall!5e0!3m2!1sen!2ske!4v1705599562295!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+    </div>
+</body>
+</html>

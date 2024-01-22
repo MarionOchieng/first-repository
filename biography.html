@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en" xmlns: xmlns:>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Biography</title>
+    <style>
+        ul{
+    list-style-type: none;
+    overflow: hidden;
+background-color: gray;
+
+        }
+        li{
+            float: left;
+            padding: 60px;
+        }
+        li a{
+            color: wheat;
+            text-decoration: none;
+            font-size: xx-large;
+        }
+        li a:hover{
+            background-color: darkcyan;
+        }
+        div#about{
+            width: 70%;
+            padding: 20px;
+        }
+        div#first{
+            overflow: auto;
+            float: left;
+            display: inline;
+        }
+        div#second{
+            float: right;
+        }
+        div#education{
+            display: block;
+        }
+        table{
+            width: 40%;
+            height: 200px;
+            border: black;
+            border-style: solid;
+            border-collapse: collapse;
+            border-bottom-left-radius: 10px;
+        }
+        tr{
+           border-style: solid;
+            border-radius: 20px;
+
+        }
+        td{
+            border: black;
+            border-style: solid;
+            text-align: center;
+            background-color: cadetblue;
+        }
+        th{
+            background-color: gray;
+             border: black;
+            border-style: solid;
+
+        }
+        div#education{
+            width: 100%;
+            float: left;
+        }
+        div#experience{
+            width: 100%;
+            float: right;
+            margin-bottom: 20px;
+        }
+        div.form{
+            width: 50%;
+            background-color: cadetblue;
+            float: right;
+        }
+        label{
+            margin: 20px;
+        }
+        input [type=radio]{
+            margin: 20px;
+        }
+        input[type=reset]{
+            padding: 10px;
+            background-color: coral;
+        }
+       input[type=reset]:hover{
+       background-color: chocolate;
+       }
+       input[type=submit]{
+            padding: 10px;
+            background-color: coral;
+        }
+       input[type=submit]:hover{
+       background-color: chocolate;
+       }
+    </style>
+</head>
+<body>
+<u><h1 style="font-family: 'Baskerville Old Face'; color: midnightblue; text-align: center; text-underline: black" >BIOGRAPHY</h1></u>
+<ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About Us</a></li>
+    <li><a href="">Contact</a></li>
+</ul>
+<div id="about">
+    <div id="first">
+        <img src="assets/images/more.jpeg" width="200px" alt="">
+    </div>
+    <div id="second">
+        <p>My name is Marion Ochieng. I was born in Nairobi and raised in Kajiado county.I am a Kenyan citizen.</p>
+    </div>
+</div>
+<br><br><br><br><br><br>
+<div id="education">
+<U><h2 STYLE="color: midnightblue; font-family: 'Baskerville Old Face'; font-size: x-large">EDUCATION</h2></U>
+
+<table>
+    <tr>
+        <th>Year</th>
+<th>Academic Institution</th>
+        <th>Achievement</th>
+    </tr>
+    <tr>
+        <td>2023</td>
+        <td>Princeton University</td>
+        <td>Bachelors Degree in Medicine</td>
+    </tr>
+    <tr>
+        <td>2017</td>
+        <td>The Kenya High School</td>
+        <td>Grade A</td>
+    </tr>
+</table>
+    </div>
+<div id="experience">
+   <u> <h3 STYLE="font-family: 'Baskerville Old Face'; color: midnightblue; font-size: x-large">EXPERIENCE</h3></u>
+<table>
+    <tr>
+        <th>Institution</th>
+        <th>Role</th>
+        <th>Responsibility</th>
+    </tr>
+    <tr>
+        <td>Matter Hospital</td>
+        <td>Intern</td>
+        <td>Monitor patients recovery</td>
+    </tr>
+    <tr>
+        <td>Princeton University</td>
+        <td>Course Prefect</td>
+        <td>Avail lecture's info to students</td>
+    </tr>
+</table>
+    </div>
+<u><H4 style="color: midnightblue; font-family: 'Baskerville Old Face'; font-size: x-large">OTHER SKILLS</H4></u>
+<ul style="list-style-type: square; background-color: white">
+    <li style="float: none; padding: 0; font-size: large">Computer literacy</li>
+    <li style="float: none; padding: 0; font-size: large">Driving</li>
+</ul>
+<br>
+<B><p style="font-size: large; color: midnightblue">VISION: </p></B><p style="font-size: large">To be able to leave a mark in society. To be remembered for the impact I had on people's lives and for the kind of life I lived.</p>
+<u><h5 STYLE="font-size: x-large; font-family: 'Baskerville Old Face'; color: midnightblue">CONTACTS</h5></u>
+<address>
+    HILTON HOSPITAL
+    <br>
+    P.P BOX 4444-001, Nairobi, Kenya
+    <BR>
+     Tel:01122334455, 0133442255
+    <BR>
+    Email:hiltonhospital@gmail.com
+</address>
+<I><h6 STYLE="font-family: 'Times New Roman'; color: mediumspringgreen; font-size: xx-large">LOCATED AT:</h6></I><p>Agha Khan walk</p><p>Dedan Kimathi Road</p>
+<a href="https://maps.app.goo.gl/M3CgRnECdcdxeKjN6"><button style="color: cadetblue; width: 100px; height: 70px; font-size: large">Show Map</button></a>
+<br><br><br><br>
+<div class="form">
+    <caption style="text-align: center">USER'S INFO</caption>
+<form>
+    <label>Name</label>
+    <input type="text"><BR>
+    <label>Gender</label><br>
+    <input type="radio" value="female" id="female" name="Gender">
+    <label for="female">female</label><br>
+    <input type="radio" value="male" id="male" name="Gender">
+    <label for="male">male</label><br>
+    <input type="radio" value="N/A" id="N/A" name="Gender">
+    <label for="N/A">N/A</label><br>
+    <label>Country</label>
+    <select name="Country" id="country">
+    <option value="Kenya">Kenya</option>
+    <option value="TZ">TZ</option>
+    <option value="UG">UG</option>
+</select><br><br>
+    <label>Password</label>
+    <input type="password" minlength="8" required><br><br>
+    <label>Date</label>
+    <input type="date"><br><br>
+    <b><label>Hobby</label><br></b>
+    <label>Reading</label>
+    <input type="checkbox">
+    <label>Sports</label>
+    <input type="checkbox">
+    <label>Art</label>
+    <input type="checkbox"><br>
+    <label>File</label>
+    <input type="file"><br><br>
+    <input type="submit">&nbsp;&nbsp;
+    <input type="reset">
+</form>
+</div>
+</body>
+</html>
